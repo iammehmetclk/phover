@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/curiosity_filter"
+        android:icon="@drawable/baseline_filter_list_white_48dp"
+        android:title="filter"
+        app:showAsAction="always">
+
+        <menu>
+
+            <group
+                android:id="@+id/filter_group"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/filter1"
+                    android:checked="true"
+                    android:title="All Cameras" />
+                <item
+                    android:id="@+id/filter2"
+                    android:title="FHAZ" />
+                <item
+                    android:id="@+id/filter3"
+                    android:title="RHAZ" />
+                <item
+                    android:id="@+id/filter4"
+                    android:title="MAST" />
+                <item
+                    android:id="@+id/filter5"
+                    android:title="CHEMCAM" />
+                <item
+                    android:id="@+id/filter6"
+                    android:title="MAHLI" />
+                <item
+                    android:id="@+id/filter7"
+                    android:title="MARDI" />
+                <item
+                    android:id="@+id/filter8"
+                    android:title="NAVCAM" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
