@@ -1,4 +1,4 @@
-Android Two-Way Data Binding Sample
+Android Sample Application
 -------------------------------------
 
 - Retrofit3
